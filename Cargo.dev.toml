@@ -23,7 +23,7 @@ members = [
 ]
 resolver = "2"
 
-[patch.'https://github.com/paritytech/substrate']
+[patch.'https://github.com/SugarFunge/substrate.git']
 frame-benchmarking = { git = "https://github.com/paritytech//substrate", rev = "816ed3d4e77a2463c86e69ec5a26fc307ef452b9" }
 frame-support = { git = "https://github.com/paritytech//substrate", rev = "816ed3d4e77a2463c86e69ec5a26fc307ef452b9" }
 frame-system = { git = "https://github.com/paritytech//substrate", rev = "816ed3d4e77a2463c86e69ec5a26fc307ef452b9" }
